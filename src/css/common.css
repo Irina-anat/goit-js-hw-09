@@ -9,6 +9,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #fafafa;
   color: #212121;
+  font-size: 18px;
   line-height: 1.5;
 }
 
@@ -16,3 +17,9 @@ img {
   display: block;
   max-width: 100%;
 }
+
+li {
+  list-style: none;
+}
+
+
