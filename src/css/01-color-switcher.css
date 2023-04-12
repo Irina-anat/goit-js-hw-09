@@ -1,15 +1,16 @@
-div {
+.container-btn {
     display: flex;
     justify-content: center;
 }
 
-button{
+.btn-toggle {
     font-weight: 700;
     font-size: 18px;
     line-height: 1.86;
     text-transform: uppercase;
     padding: 10px 20px;
-    margin: 200px 10px;
+    margin: 250px 10px;
     border-radius: 6px;
     cursor: pointer;
 }
+
