@@ -13,6 +13,7 @@ const secondsValue = document.querySelector(`span[data-seconds]`);
 buttonStart.setAttribute("disabled", "disabled");
 
 let timerId = null;
+let chosenDate = null;
 
 const options = {
   enableTime: true,
@@ -43,8 +44,8 @@ function onClick() {
   inputDate.setAttribute("disabled", "disabled");
 
   const currentTime = Date.now();
-  const differenceTime = chosenDate - currentTime;
-// console.log(differenceTime)
+    const differenceTime = chosenDate - currentTime;
+    console.log(differenceTime, chosenDate, currentTime)
 
   if (differenceTime < 1000) {
     clearInterval(timerId);
