@@ -12,21 +12,23 @@ margin-top: 15px;
 }
 
 .value{
-font-size: 38px;   
+font-size: 56px;   
 }
 
 .label{
-font-size: 14px;
 text-transform: uppercase;
 }
 
 input{
 padding: 5px 5px;
-font-size: 16px;
 }
 
 .btn-start{
 display: inline-block;
 padding: 5px 10px;
-font-size: 16px;
+font-size: 20px;
+}
+
+.flatpickr-input{
+font-size: 20px;
 }
